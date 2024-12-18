@@ -5,7 +5,6 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,17 +14,18 @@ class MyApp extends StatelessWidget {
           child: Row(
             children: [
               Container(
-                  padding: EdgeInsets.all(10),
-                  margin: EdgeInsets.all(10),
-                  color: Colors.purple,
-                  child: Text(
-                    'HELLO WORLD',
-                    style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                    ),
-                  )),
+                padding: EdgeInsets.all(10),
+                margin: EdgeInsets.all(10),
+                color: Colors.purple,
+                child: Text(
+                  'HELLO WORLD',
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
               Image(
                 width: 240,
                 height: 240,

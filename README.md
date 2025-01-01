@@ -1,7 +1,3 @@
-# Flutter Row Widget App
-
-A Flutter app that demonstrates the use of the `Row` widget to display multiple widgets horizontally. This example places a `Text` widget and an `Image` widget inside a `Row`, showing how to arrange them side by side.
-
 ## 📋 Features
 
 - **Row Widget**: Uses the `Row` widget to display widgets horizontally.
